@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pdfminer3 = "*"
+pyresparser = "*"
+streamlit = "*"
+pandas = "*"
+pafy = "*"
+plotly = "*"
+pymysql = "*"
+streamlit-tags = "*"
+pillow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
