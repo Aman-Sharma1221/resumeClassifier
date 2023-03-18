@@ -88,7 +88,7 @@ st.set_page_config(
 )
 def run():
     st.title("Nolox Resume Classifier")
-    st.sidebar.markdown("# Choose User") cursor
+    st.sidebar.markdown("# Choose User") 
     activities = ["Normal User", "Admin"]
     choice = st.sidebar.selectbox("Choose among the given options:", activities)
     # st.sidebar.markdown(link, unsafe_allow_html=True)
